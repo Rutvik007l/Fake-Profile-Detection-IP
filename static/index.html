@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber Fake Profile Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="dashboard">
+    <h1>🛡 Fake Profile Detection System</h1>
+    <p class="tagline">OSINT • Cybercrime • Behavioral Analysis</p>
+    
+    <div class="panel">
+        <input id="username" placeholder="Enter Username">
+        <select id="platform">
+            <option>Instagram</option>
+            <option>Facebook</option>
+            <option>Twitter</option>
+        </select>
+        <button onclick="analyze()">Analyze</button>
+    </div>
+    
+    <div id="output" class="output hidden"></div>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
